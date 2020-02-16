@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Food';
+  load:string='recipe';
+
+  onSelect(data1:string)
+  {
+this.load=data1;
+
+  }
+
 }
